@@ -1,0 +1,73 @@
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    padding: 8px 8px;
+    background-color: rgb(182, 237, 127);  
+}
+
+h1{
+    text-align: center;
+}
+
+hr{
+    z-index: 2;
+    position: relative;
+}
+h3{
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+table{
+    background-color: aquamarine;
+}
+
+table, td{
+    border: 1px gray outset;
+    border-collapse: collapse;
+    padding: 9px
+}
+
+img{
+    width: 70%;
+    margin-left: 17px;
+    align-items: center;
+}
+
+.nav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    border: 1px solid rgba(0, 0, 0, 0.447);
+    position: absolute; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: white; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+.footer{
+    background-color: antiquewhite;
+    z-index: 3;
+    position: absolute;
+    height: 60px;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    border: 1px grey solid;
+    margin-top: auto;
+}
+
+
+
+
